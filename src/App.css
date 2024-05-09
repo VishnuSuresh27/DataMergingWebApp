@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #d0e0f0; 
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*background-color: #282c34;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.merge-container {
+  border: 1px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.merge-container input {
+  margin-bottom: 10px;
+}
+
+.merge-container button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
